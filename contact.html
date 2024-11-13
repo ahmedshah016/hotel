@@ -1,0 +1,170 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="logo">
+              <a class="navbar-brand fs-2 mt-2" href="./index.html">Palm Valley</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="nav-links">   
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" id="navbar" href="index.html" class="active">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" id="navbar" href="rooms.html" class="active">ROOMS</a>
+                  </li>
+              
+     
+    
+                  <li class="nav-item">
+                    <a class="nav-link" id="navbar" href="events.html" tabindex="-1">EVENTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="navbar" href="about.html" tabindex="-1">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="navbar" href="contact.html" tabindex="-1">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" id="navbar" href="./login.html">LOGIN</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+          </div>
+        </nav>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg" class="img-fluid" height="700px" alt="hero1">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 col-lg-12">
+    
+                <h1 class="heading" style="text-align: center; padding-left: 105px; padding-right: 105px;">Get In Touch</h1>
+                <p class="contact-para">Read More</p>
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <!-- <contact form> -->
+          <section class="contact-section">
+            <div class="container">
+                <div class="row">
+                    <!-- Contact Form -->
+                    <div class="col-md-6" id="contact-form">
+                      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="b1cae89e-129f-4aa9-a4b6-56cb8f072900" />
+                        <input type="hidden" name="subject" value="Welcome to Suites.com!" />
+                        <input type="hidden" name="from_name" value="Suites.com" />                           
+                         <div class="form-group">
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Phone #" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write a comment"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+    
+                    <!-- Contact Info -->
+                    <div class="col-md-6 contact-info" id="contact-form">
+                        <h3>Contact Info</h3>
+                        <p><strong>Address</strong><br class="address"> Federal B Area, Karachi, Pakistan.</p>
+                        <p><strong>Phone</strong><br><span class="highlight">+92 3102784697</span></p>
+                        <p><strong>Email Address</strong><br><span class="highlight">mahmedshah54321@gmail.com</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+         <!-- footer -->
+    <footer class="footer-top">
+        <section>
+          <div class="container">
+            <div class="row mt-3">
+              <div class="col-lg-3 col-md-3 links">
+                <h4>About</h4>
+                <p class="card-text">Welcome to Suites, where elegance meets comfort in the heart of Karachi.</p>
+                <button class="button">Read More</button>
+              </div>
+              <div class="col-md-3 col-lg-3 links">
+                <ul>
+                  <h4 style="color:black;">Section</h4>
+                  <li class="active"><a href="#">Services</a></li>
+                  <li class="active"><a href="#" class="table-active">About</a></li>
+                  <li class="active"><a href="#">Approach</a></li>
+                  <li class="active"><a href="#">Sustainability</a></li>
+                  <li class="active"><a href="#">News</a></li>
+                  <li class="active"><a href="#">Careers</a></li>
+  
+                </ul>
+              </div>
+      
+              <div class="col-md-3 col-lg-3 links">
+                <h4>Ministries</h4>
+                <ul>
+                  <li class="active"><a href="#">Children</a></li>
+                  <li class="active"><a href="#">Women</a></li>
+                  <li class="active"><a href="#">Bible Study</a></li>
+                  <li class="active"><a href="#">Church</a></li>
+                  <li class="active"><a href="#">Missionaries</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-lg-3 links">
+                <h4>Social Icons</h4>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/profile.php?id=100022663337424"><i class="fab fa-facebook-f"></i></a>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+                  <a href="https://www.linkedin.com/in/ahmed-shah-8ba43b24b/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <hr class="foot">
+          <p class="copy-right" style="color:black !important;">&copy;Copyright © 2024 All Rights Reserved | This template is made
+            with by <a href="https://www.linkedin.com/in/ahmed-shah-8ba43b24b/" class="name">Ahmed Shah</a><i
+            class="fa-solid fa-heart"></i></p>
+  
+  
+        </section>
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+</body>
